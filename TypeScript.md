@@ -12,10 +12,14 @@ TypeScript optionally provides source maps, enabling source-level debugging. Typ
 interface JQueryStatic {  
     get(url: string, callback: (data: string) => any);     
     (query: string): JQuery;  
-}```
+}
+```
 
 
 
-The 'JQueryStatic' interface contains a bare function signature ```typescript (query: string): JQuery;```
+The 'JQueryStatic' interface contains a bare function signature 
+```typescript 
+(query: string): JQuery;
+```
 
 The bare signature indicates that instances of the interface are callable. This example illustrates that TypeScript function types are just special cases of TypeScript object types. Specifically, function types are object types that contain one or more call signatures.
