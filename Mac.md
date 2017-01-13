@@ -10,3 +10,6 @@ next to the date and time (the little magnifying glass) and type in
 or laptop. You can then select where you would like to save it. Also, 
 if you want to transfer it to an external hard drive thats connected to 
 your comuter select "Other" under options to save to.
+
+Enable Mac emoji 
+`Ctrl ^ + Command ⌘ + Space` 
